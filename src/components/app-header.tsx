@@ -3,7 +3,7 @@ import React from 'react'
 import { ConditionalSidebarTrigger } from './conditional-sidebar-trigger'
 import { ThemeSwitch } from './theme-switch'
 import { Separator } from './ui/separator'
-import { Bell, Globe, Mail, SlidersVertical, } from 'lucide-react'
+import { Bell, Globe, Mail, ShoppingBasket, SlidersVertical, } from 'lucide-react'
 import { UserProfile } from './user-profile'
 import { useIsMobile } from '@/hooks/use-mobile'
 
@@ -15,7 +15,7 @@ const Header = () => {
       <div className='flex items-center justify-between w-full p-4 rounded-md shadow-md bg-white dark:bg-zinc-900'>
         <div className=' flex  flex-col '>
 
-          <div className='h-10 w-10 bg-black rounded-full flex md:hidden'></div>
+          <div className="h-8 w-8 rounded-full flex justify-center items-center bg-primary text-primary-foreground sm:hidden "><ShoppingBasket /></div>
           <h1 className='text-lg font-bold hidden lg:flex '>Products</h1>
           <p className='text-[12px] text-gray-500 opacity-80  hidden lg:flex  '>Manage Your Products</p>
 
