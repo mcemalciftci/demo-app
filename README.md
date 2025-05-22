@@ -1,6 +1,6 @@
 # 💼 DevCase Paneli (Next.js + Tailwind + shadcn/ui)
 
-DevCase yönetimi için hazırlanmış modern ve responsif bir web uygulamasıdır. Next.js framework’ü ile geliştirilmiş, UI tarafında **Tailwind CSS** ve **shadcn/ui** bileşenleri kullanılmıştır. Temalar ve sidebar yönetimi için `React Context API` kullanılmıştır. Uygulama, **Lucide** ikon kütüphanesiyle sade ve modern bir görsellik sunar.
+DevCase  için hazırlanmış modern ve responsif bir web uygulamasıdır. Next.js framework’ü ile geliştirilmiş, UI tarafında **Tailwind CSS** ve **shadcn/ui** bileşenleri kullanılmıştır. Temalar ve sidebar yönetimi için `React Context API` kullanılmıştır. Uygulama, **Lucide** ikon kütüphanesiyle sade ve modern bir görsellik sunar.
 
 🔗 **Canlı Demo:** [www.example.com](https://www.example.com)
 
