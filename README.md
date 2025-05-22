@@ -8,9 +8,8 @@ DevCase yönetimi için hazırlanmış modern ve responsif bir web uygulamasıd�
 
 Aşağıda uygulamaya ait bir ekran görüntüsü yer almaktadır:
 
-![Uygulama Ekranı](./public/screenshot.jpg)
+![Uygulama Ekranı](./public/screenshots.jpg)
 
-> Not: `public` klasörüne `screenshot.png` dosyasını koyarak görselin görünmesini sağlayabilirsin.
 
 ---
 
