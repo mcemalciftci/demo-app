@@ -1,36 +1,48 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 💼 DevCase Paneli (Next.js + Tailwind + shadcn/ui)
 
-## Getting Started
+DevCase yönetimi için hazırlanmış modern ve responsif bir web uygulamasıdır. Next.js framework’ü ile geliştirilmiş, UI tarafında **Tailwind CSS** ve **shadcn/ui** bileşenleri kullanılmıştır. Temalar ve sidebar yönetimi için `React Context API` kullanılmıştır. Uygulama, **Lucide** ikon kütüphanesiyle sade ve modern bir görsellik sunar.
 
-First, run the development server:
+🔗 **Canlı Demo:** [www.example.com](https://www.example.com)
+
+## 📸 Ekran Görüntüsü
+
+Aşağıda uygulamaya ait bir ekran görüntüsü yer almaktadır:
+
+![Uygulama Ekranı](./public/screenshot.jpg)
+
+> Not: `public` klasörüne `screenshot.png` dosyasını koyarak görselin görünmesini sağlayabilirsin.
+
+---
+
+## 🚀 Özellikler
+
+- ⚡️ Next.js ile SSR (Sunucu Taraflı Render) desteği
+- 🎨 Tailwind CSS ile esnek ve kolay tasarım
+- 🧩 Shadcn/ui ile hazır ve özelleştirilebilir UI bileşenleri
+- 🌙 Karanlık ve aydınlık tema desteği (Context API ile)
+- 🧭 Sidebar navigasyonu
+- 💡 Lucide ile modern ikon kullanımı
+- 🌍 Vercel ile ücretsiz ve hızlı deploy
+
+---
+
+## 🛠️ Kullanılan Teknolojiler
+
+| Teknoloji     | Açıklama                             |
+|---------------|--------------------------------------|
+| Next.js       | React tabanlı framework              |
+| Tailwind CSS  | Utility-first CSS framework          |
+| Shadcn/ui     | UI bileşen kütüphanesi               |
+| Lucide Icons  | Hafif ve modern ikonlar              |
+| Context API   | Tema ve sidebar state yönetimi       |
+| Vercel        | Ücretsiz hosting ve CI/CD            |
+
+---
+
+## ⚙️ Kurulum ve Geliştirme
 
 ```bash
+git clone https://github.com/kullanici_adi/proje-adi.git
+cd proje-adi
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
