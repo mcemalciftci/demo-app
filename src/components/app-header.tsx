@@ -5,11 +5,9 @@ import { ThemeSwitch } from './theme-switch'
 import { Separator } from './ui/separator'
 import { Bell, Globe, Mail, ShoppingBasket, SlidersVertical, } from 'lucide-react'
 import { UserProfile } from './user-profile'
-import { useIsMobile } from '@/hooks/use-mobile'
 
 const Header = () => {
   const iconClassname = "h-5 w-5 text-gray-500 dark:text-gray-400"
-  const isMobile = useIsMobile()
   return (
     <div className=' w-full flex mt-4 '>
       <div className='flex items-center justify-between w-full p-4 rounded-md shadow-md bg-white dark:bg-zinc-900'>

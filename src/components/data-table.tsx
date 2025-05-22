@@ -13,7 +13,7 @@ import {
   getSortedRowModel,
   useReactTable,
 } from "@tanstack/react-table"
-import { Search, RotateCcw, MoreVertical, ChevronLeft, ChevronRight, ArrowUpDown, CheckCircle2, Ban, Hourglass, ListFilter, CirclePlus } from "lucide-react"
+import { Search, RotateCcw, MoreVertical, ChevronLeft, ChevronRight, ArrowUpDown, CheckCircle2, Ban,  ListFilter, CirclePlus } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Checkbox } from "@/components/ui/checkbox"
 import { Input } from "@/components/ui/input"
@@ -112,7 +112,7 @@ export function DataTable() {
         return (
           <div className="flex items-center">
             <div className=" flex-shrink-0 overflow-hidden rounded-md bg-gray-200 ">
-              <img className="h-10 w-10 object-cover p-0.5" src={product.imageUrl} alt="" />
+              <img className="h-10 w-10 object-cover p-0.5" src={product.imageUrl} alt="#" />
             </div>
             <div className="ml-4">
               <div className="font-medium">{product.name}</div>
@@ -214,8 +214,7 @@ export function DataTable() {
     },
     {
       id: "actions",
-      cell: ({ row }) => {
-        const product = row.original
+      cell: () => {
         return (<div className="lg:flex hidden">
           <DropdownMenu >
             <DropdownMenuTrigger asChild>
